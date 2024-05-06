@@ -1,0 +1,30 @@
+.loading img {
+  max-width: 70px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.house-info {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.house-info img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.house-info h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
